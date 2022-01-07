@@ -2,3 +2,93 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+
+.half-width{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.top-banner{
+    display: flex;
+    margin-bottom: 100px;
+}
+img {
+    width: 50%;
+    border-radius: 30px;
+}
+#orange-color{
+    color: orange;
+    
+}
+.border-left{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+    
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+h1 span{
+    color: orchid;
+}
+#center{
+    text-align: center;
+}
+.mission-big{
+    display: flex;
+    margin-bottom: 80px;
+}
+.mission-small{
+    border: 0px solid orchid;
+    background-color: orchid;
+   padding: 40px;
+   margin: 40px;
+   width: 300px;
+   height: 150px;
+   border-radius: 30px;
+}
+.vision{
+    border: 0px solid yellowgreen;
+    background-color: yellowgreen;
+   padding: 40px;
+   margin: 40px;
+   width: 300px;
+   height: 150px;
+   border-radius: 30px;
+}
+.goal{
+    border: 0px solid purple;
+    background-color: purple;
+   padding: 40px;
+   margin: 40px;
+   width: 300px;
+   height: 150px;
+   border-radius: 30px;
+}
+
+.develop-limit{
+    display: flex;
+    margin-bottom: 80px;
+}
+.global{
+    display: flex;
+    margin-bottom: 80px;
+}
+.f-size{
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(216, 202, 202);
+   width: 300px;
+   height: 100px;
+   h1 {
+       color: red;
+   }
+   
+}
